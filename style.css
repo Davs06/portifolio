@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #121113;
     color: #fff;
     font-family: sans-serif;
 }
@@ -67,6 +67,7 @@ main {
     height: 100vh;
     padding: 10%;
     display: flex;
+    background: linear-gradient(63.13deg, #121212 51.04%, #5c504e 51.05%);
 }
 
 #inicio p{
@@ -92,6 +93,23 @@ main {
     width: 100%;
     height: 100vh;
     padding: 10%;
+    text-align: right;
+    display: flex;
+}
+
+section .other{
+    width: 50%;
+    height: 100%;
+
+}
+
+section .text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    right: 10px;    
+    font-size: 30px;
+    padding: 5% 5%;
 
 }
 
@@ -99,7 +117,19 @@ main {
     width: 100%;
     height: 100vh;
     padding: 10%;
+    display:flex;
+    overflow: hidden;
 }
+
+section .projcts{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    overflow:hidden;
+    text-align: center;
+}
+
+
 
 #habilidades{
     width: 100%;
