@@ -14,14 +14,23 @@
 
   <header>
 
-    <nav class="header  ">
-      <ul class="lista ">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre-mim">Sobre mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-      </ul>
-    </nav>
+    <div class="barra">
+      <div class="menu-centro">
+        <div class="barra-conteiner centralizador">
+          <div class="logo esquerda">
+            <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
+          </div>
+          <nav class="direita">
+            <ul onclick="getElementById('close-menu').checked=false;">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="corpo">
