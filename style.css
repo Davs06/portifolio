@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #2b2b2b;
     color: #fff;
     font-family: sans-serif;
     box-sizing: border-box;
@@ -15,14 +15,41 @@ body {
     border: 1px solid red;
 }
 
-/* projetos -------------------- */
+/* habilidades -------------------- */
 
-.habilidades{
+.habilidades {
     display: flex;
     height: 100vh;
     flex-direction: row;
 }
 
-.habilidades-content{
+.habilidades-content {
     width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.habilidades-div {
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.habilidades-content-img {
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidade-span {
+    margin: 2% auto;
+    padding: 0 auto;
+    text-align: center;
 }
