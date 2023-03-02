@@ -60,12 +60,12 @@ body {
     text-align: center;
 }
 
-.aparecer{
+.aparecer, .aparecer1{
 
     padding-top: 0%;
     display: none;
     margin: 0 0 0 0;
     padding-left: 0%;
-    color: rgb(68, 0, 255);
+    color: #fff;
     font-size: 20px;
 }
